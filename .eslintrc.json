@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@nextystudio/eslint-config/react",
+    "eslint:recommended",
+    "plugin:react/jsx-runtime"
+  ],
+  "plugins": [
+    "react-refresh"
+  ],
+  "rules": {
+    "react-refresh/only-export-components": "warn"
+  }
+}
